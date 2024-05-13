@@ -1,5 +1,6 @@
-BRAINSTORMING:
+Rafferty and Wesley wrote all of this
 
+BRAINSTORMING:
 premise: you go to sleep in the present day, during the nba finals. OKC is losing the series to the Mavs 1-2. You go to sleep, and when you wake up, you're in a dungeon (the character is in medieval times, but doesn't know it).
 
 You were switched with an infamous robber with the exact same name as you, and now you hve to find your way back to the present time to see the outcome of the OKC-Mavs series, hoping your parlay will hit.
@@ -10,8 +11,50 @@ clingus dinglejit
 
 twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win game 7 of the NBA finals, and see the date on the TV read 3099
 
-
 you can die along the way. You won't necessarily lose all your progress, but it might respawn you or lose items in your inventory, meaning you'll have to go back to collect more or risk losing again
 
 
 https://code-with-me.global.jetbrains.com/MJeXIrf-tLOAJ5ctv90f1Q#p=IC&fp=E2BAA37B23FA5540C2F42B72D82458FF85C36C03E516C0307EF405C41F0A18A2&newUi=true
+
+
+(number) = step the player is on
+
+(number[option letter]) = option letter is the selected option from the previous number
+    ex:
+
+        1. You have choices
+            A: move
+            B: sit
+            C: stand stationary
+            D: crawl
+
+        2A. you moved. Do you now...
+            A. move more
+            B. run
+            C. bound
+            D. leap
+
+        2B. you sit, contemplating.
+            A. eat
+
+
+        2C. You stand. You legs get quickly tired
+
+        2D. You crawl forward. Now what?
+
+
+
+
+
+1. You are in a dungeon, strapped to a chair, the only light coming in is through a small hatch in what appears to be a door in front of you.
+
+    A: look around
+
+
+2A. the light illuminates a skeleton with a hatchet in it's skull.
+
+    A: grab the hatchet and free yourself
+
+3A. you arise from the chair, naked and cold.
+
+
