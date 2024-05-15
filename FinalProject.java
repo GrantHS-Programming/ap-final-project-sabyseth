@@ -47,7 +47,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         titleName.setBounds(200, 1, 600, 500);
         titleName.setBackground(Color.BLACK);
 
-        titleNameLabel = new JLabel("Matrix");
+        titleNameLabel = new JLabel("matrix");
         titleNameLabel.setBackground(Color.black);
         titleNameLabel.setForeground(Color.white);
         titleNameLabel.setFont(engraversOldEnglish);
