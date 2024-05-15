@@ -85,10 +85,26 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
 
 2A. the light illuminates a skeleton with a hatchet in it's skull.
 
-    A: grab the hatchet and free yourself
+    A. grab the hatchet and free yourself
     B. Struggle
 
-3A. you arise from the chair, naked and cold.
+3A. you arise from the chair, half naked and cold.
+
+    A. exlpore the room
+    B. try the door
+
+4A. you fumble around the darkness but eventually give up -----> 3A
+
+4B. you grab the knob and the door creeps open slowly revealing what appears to be a spiraling stairway. you hear footsteps echoing down the stairs
+
+    A. Hide in the dungeon
+    B. charge up the stairs with the hatchet
+    C. hid the hatchet in your pants and approach friendly
+
+
+
+
+
 
 
 3B. hmmm. that proved no help -----> 2A 
