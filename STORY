@@ -40,7 +40,6 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
 
         3D.
 
-
         2B. you sit, contemplating.
             A. eat
             B. sleep
@@ -54,7 +53,6 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
         3C.
 
         3D.
-
 
         2C. You stand. You legs get quickly tired
             A. keep standing
@@ -102,6 +100,7 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
     A. Hide in the dungeon
     B. charge up the stairs with the hatchet
     C. hid the hatchet in your pants and approach friendly
+
 
 
 
