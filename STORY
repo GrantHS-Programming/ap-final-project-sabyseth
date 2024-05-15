@@ -7,76 +7,76 @@ You were switched with an infamous robber with the exact same name as you, and n
 
 Have to get back to present by finding a witch, who sends us on an insane quest to find all the ingredients for the potion that will allow us to get us back.
 
+drey ashplae
 
 
 twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win game 7 of the NBA finals, and see the date on the TV read 3099
 
 you can die along the way. You won't necessarily lose all your progress, but it might respawn you or lose items in your inventory, meaning you'll have to go back to collect more or risk losing again
 
-https://code-with-me.global.jetbrains.com/V5miXLdRngQEfww1-U9mQA#p=IC&fp=A1F8A40109AA7DE6FA79E5E72A8840C90FAA17684EDFE955C8D6810A454824C7&newUi=true
+https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40109AA7DE6FA79E5E72A8840C90FAA17684EDFE955C8D6810A454824C7&newUi=true
+
 (number) = step the player is on
 
 (number[option letter]) = option letter is the selected option from the previous number
     ex:
-Scenario Title/Number: [Title or number to identify the scenario]
 
-Introduction/Scenario Setup:
-[Describe the situation or setting briefly]
+        1. You have choices
+            A: move
+            B: sit
+            C: stand stationary
+            D: crawl
 
-Question 1:
-[Present the first decision point]
+        2A. you moved. Do you now...
+            A. move more
+            B. run
+            C. bound
+            D. leap
 
-Option A: [Description]
-Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
-Outcome 1:
+        3A.
 
-If Option A chosen: [Describe the outcome]
-If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
-Question 2:
-[Present the second decision point]
+        3B.
 
-Option A: [Description]
-Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
-Outcome 2:
+        3C.
 
-If Option A chosen: [Describe the outcome]
-If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
-Question 3:
-[Present the third decision point]
+        3D.
 
-Option A: [Description]
-Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
-Outcome 3:
 
-If Option A chosen: [Describe the outcome]
-If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
-Question 4:
-[Present the fourth decision point]
+        2B. you sit, contemplating.
+            A. eat
+            B. sleep
+            C. stretch
+            D. walk
 
-Option A: [Description]
-Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
-Outcome 4:
+        3A.
 
-If Option A chosen: [Describe the outcome]
-If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
-Conclusion/Resolution:
-[Wrap up the scenario, summarizing the consequences of the player's choices]
+        3B.
+
+        3C.
+
+        3D.
+
+
+        2C. You stand. You legs get quickly tired
+            A. keep standing
+            B. sit down again
+            C. exercise
+            D. run around
+
+        3A.
+
+        3B.
+
+        3C.
+
+        3D.
+
+        2D. You crawl forward. Now what?
+            A. keep standing
+            B. sit down again
+            C. exercise
+            D. run around
+
 
 
 
@@ -88,27 +88,10 @@ Conclusion/Resolution:
 
 2A. the light illuminates a skeleton with a hatchet in it's skull.
 
-    A. grab the hatchet and free yourself
+    A: grab the hatchet and free yourself
     B. Struggle
 
-3A. you arise from the chair, half naked and cold.
-
-    A. exlpore the room
-    B. try the door
-
-4A. you fumble around the darkness but eventually give up -----> 3A
-
-4B. you grab the knob and the door creeps open slowly revealing what appears to be a spiraling stairway. you hear footsteps echoing down the stairs
-
-    A. Hide in the dungeon
-    B. charge up the stairs with the hatchet
-    C. hid the hatchet in your pants and approach friendly
-
-
-
-
-
-
+3A. you arise from the chair, naked and cold.
 
 3B. hmmm. that proved no help -----> 2A 
 
