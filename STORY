@@ -7,7 +7,6 @@ You were switched with an infamous robber with the exact same name as you, and n
 
 Have to get back to present by finding a witch, who sends us on an insane quest to find all the ingredients for the potion that will allow us to get us back.
 
-drey ashplae
 
 
 twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win game 7 of the NBA finals, and see the date on the TV read 3099
@@ -88,10 +87,26 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
 
 2A. the light illuminates a skeleton with a hatchet in it's skull.
 
-    A: grab the hatchet and free yourself
+    A. grab the hatchet and free yourself
     B. Struggle
 
-3A. you arise from the chair, naked and cold.
+3A. you arise from the chair, half naked and cold.
+
+    A. exlpore the room
+    B. try the door
+
+4A. you fumble around the darkness but eventually give up -----> 3A
+
+4B. you grab the knob and the door creeps open slowly revealing what appears to be a spiraling stairway. you hear footsteps echoing down the stairs
+
+    A. Hide in the dungeon
+    B. charge up the stairs with the hatchet
+    C. hid the hatchet in your pants and approach friendly
+
+
+
+
+
 
 3B. hmmm. that proved no help -----> 2A 
 
