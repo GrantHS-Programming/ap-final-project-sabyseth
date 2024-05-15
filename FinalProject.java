@@ -40,14 +40,40 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         gameWindow.setSize(1000,1000);
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.getContentPane().setBackground(Color.BLACK);
-        gameWindow.setLayout(null);
 
         //Title
+
+
+        JTextArea text = new JTextArea();
+
+        titleNameLabel = new JLabel("the matrix");
+        titleNameLabel.setBackground(Color.black);
+        titleNameLabel.setForeground(Color.white);
+        titleNameLabel.setFont(engraversOldEnglish);
+
+
         titleName = new JPanel();
-        titleName.setBounds(200, 1, 600, 500);
+        titleName.setLayout(new GridBagLayout());
+        titleName.add(titleNameLabel);
+        titleName.add(text);
+        titleName.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+
+
+
+        gameWindow.add(titleName);
         titleName.setBackground(Color.BLACK);
 
-        titleNameLabel = new JLabel("Matrix");
+        gameWindow.setVisible(true);
+
+
+
+        /*
+
+        titleName.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+
+        titleName.setBackground(Color.BLACK);
+
+        titleNameLabel = new JLabel("the matrix");
         titleNameLabel.setBackground(Color.black);
         titleNameLabel.setForeground(Color.white);
         titleNameLabel.setFont(engraversOldEnglish);
@@ -55,6 +81,8 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
 
         gameWindow.add(titleName);
         gameWindow.setVisible(true);
+
+         */
     }
 
 
