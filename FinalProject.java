@@ -20,6 +20,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
     Location location1 = new Location("Fight", "Heal", "Run", "Inventory", "You wake up...");
         System.out.println(location1);
         System.out.println(location1.getOption1());
+        System.out.println(location1.printAll());
 
     }
 
