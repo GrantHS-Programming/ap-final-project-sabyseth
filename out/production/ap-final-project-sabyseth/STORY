@@ -13,8 +13,7 @@ twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win 
 
 you can die along the way. You won't necessarily lose all your progress, but it might respawn you or lose items in your inventory, meaning you'll have to go back to collect more or risk losing again
 
-https://code-with-me.global.jetbrains.com/MJeXIrf-tLOAJ5ctv90f1Q#p=IC&fp=E2BAA37B23FA5540C2F42B72D82458FF85C36C03E516C0307EF405C41F0A18A2&newUi=true
-
+https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40109AA7DE6FA79E5E72A8840C90FAA17684EDFE955C8D6810A454824C7&newUi=true
 
 (number) = step the player is on
 
@@ -35,6 +34,9 @@ https://code-with-me.global.jetbrains.com/MJeXIrf-tLOAJ5ctv90f1Q#p=IC&fp=E2BAA37
 
         2B. you sit, contemplating.
             A. eat
+            B. sleep
+            C. stretch
+            D. walk
 
 
         2C. You stand. You legs get quickly tired
