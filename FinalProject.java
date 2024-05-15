@@ -6,7 +6,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class FinalProject extends JFrame implements ActionListener, MouseListener{
     JFrame gameWindow;
@@ -20,9 +19,9 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
     Character player = new Character();
     Location location1 = new Location("Fight", "Heal", "Run", "Inventory", "You wake up...");
     Location currentLocation = location1;
-        System.out.println(location1);
-        System.out.println(location1.getOption1());
-        System.out.println(location1.printAll());
+        System.out.println(currentLocation);
+        System.out.println(currentLocation.getOption1());
+        System.out.println(currentLocation.printAll());
 
     }
 
@@ -31,7 +30,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
             engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(20f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         }
-        catch (IOException | FontFormatException e){
+        catch (IOException | FontFormatException ignored){
 
         }
 
@@ -61,6 +60,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         gameWindow.setVisible(true);
 
         //Buttons
+        JButton start = new JButton("Begin");
         JButton button1 = new JButton();
     }
 
