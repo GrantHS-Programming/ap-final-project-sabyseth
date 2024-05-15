@@ -34,55 +34,27 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
 
         }
 
-
+        JTextArea text = new JTextArea();
         //Window
         gameWindow = new JFrame("Dungeon");
         gameWindow.setSize(1000,1000);
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.getContentPane().setBackground(Color.BLACK);
 
-        //Title
-
-
-        JTextArea text = new JTextArea();
-
-        titleNameLabel = new JLabel("the matrix");
-        titleNameLabel.setBackground(Color.black);
-        titleNameLabel.setForeground(Color.white);
-        titleNameLabel.setFont(engraversOldEnglish);
-
-
         titleName = new JPanel();
         titleName.setLayout(new GridBagLayout());
-        titleName.add(titleNameLabel);
         titleName.add(text);
-        titleName.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-
-
-
-        gameWindow.add(titleName);
-        titleName.setBackground(Color.BLACK);
-
-        gameWindow.setVisible(true);
-
-
-
-        /*
-
-        titleName.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         titleName.setBackground(Color.BLACK);
 
-        titleNameLabel = new JLabel("the matrix");
+        titleNameLabel = new JLabel("Matrix");
         titleNameLabel.setBackground(Color.black);
         titleNameLabel.setForeground(Color.white);
         titleNameLabel.setFont(engraversOldEnglish);
-        titleName.add(titleNameLabel);
 
+        titleName.add(titleNameLabel);
         gameWindow.add(titleName);
         gameWindow.setVisible(true);
-
-         */
     }
 
 
