@@ -31,4 +31,7 @@ public class Location {
     public String toString() {
         return text;
     }
+    public String printAll() {
+        return option1 + ", " + option2 + ", " + option3 + ", " + option4;
+    }
 }
