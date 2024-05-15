@@ -7,7 +7,7 @@ public class Character {
     private int hunger;
     public Character(){
         health = 10;
-        name = "John";
+        name = "Grant Gilmore";
         inventory = new ArrayList<>();
         hunger = 3;
     }
