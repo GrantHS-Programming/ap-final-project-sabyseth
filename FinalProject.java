@@ -19,6 +19,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
     new FinalProject();
     Character player = new Character();
     Location location1 = new Location("Fight", "Heal", "Run", "Inventory", "You wake up...");
+    Location currentLocation = location1;
         System.out.println(location1);
         System.out.println(location1.getOption1());
         System.out.println(location1.printAll());
@@ -27,34 +28,40 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
 
     public FinalProject(){
         try {
-            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(200f);
+            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(20f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         }
         catch (IOException | FontFormatException e){
 
         }
 
-        JTextArea text = new JTextArea();
+
         //Window
+        int width = 1000;
+        int height = 1000;
         gameWindow = new JFrame("Dungeon");
-        gameWindow.setSize(1000,1000);
+        gameWindow.setSize(width,height);
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.getContentPane().setBackground(Color.BLACK);
+        gameWindow.setLayout(null);
 
+        //Title
         titleName = new JPanel();
-        titleName.setLayout(new GridBagLayout());
-        titleName.add(text);
-
+        titleName.setSize(100, 100);
+        titleName.setLocation(gameWindow.getWidth()/2, gameWindow.getHeight()/2);
         titleName.setBackground(Color.BLACK);
 
         titleNameLabel = new JLabel("Matrix");
         titleNameLabel.setBackground(Color.black);
         titleNameLabel.setForeground(Color.white);
         titleNameLabel.setFont(engraversOldEnglish);
-
         titleName.add(titleNameLabel);
+
         gameWindow.add(titleName);
         gameWindow.setVisible(true);
+
+        //Buttons
+        JButton button1 = new JButton();
     }
 
 

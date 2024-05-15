@@ -7,7 +7,6 @@ You were switched with an infamous robber with the exact same name as you, and n
 
 Have to get back to present by finding a witch, who sends us on an insane quest to find all the ingredients for the potion that will allow us to get us back.
 
-drey ashplae
 
 
 twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win game 7 of the NBA finals, and see the date on the TV read 3099
@@ -20,63 +19,65 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
 
 (number[option letter]) = option letter is the selected option from the previous number
     ex:
+Scenario Title/Number: [Title or number to identify the scenario]
 
-        1. You have choices
-            A: move
-            B: sit
-            C: stand stationary
-            D: crawl
+Introduction/Scenario Setup:
+[Describe the situation or setting briefly]
 
-        2A. you moved. Do you now...
-            A. move more
-            B. run
-            C. bound
-            D. leap
+Question 1:
+[Present the first decision point]
 
-        3A.
+Option A: [Description]
+Option B: [Description]
+[Optional] Option C: [Description]
+[Optional] Option D: [Description]
+Outcome 1:
 
-        3B.
+If Option A chosen: [Describe the outcome]
+If Option B chosen: [Describe the outcome]
+[Optional] If Option C chosen: [Describe the outcome]
+[Optional] If Option D chosen: [Describe the outcome]
+Question 2:
+[Present the second decision point]
 
-        3C.
+Option A: [Description]
+Option B: [Description]
+[Optional] Option C: [Description]
+[Optional] Option D: [Description]
+Outcome 2:
 
-        3D.
+If Option A chosen: [Describe the outcome]
+If Option B chosen: [Describe the outcome]
+[Optional] If Option C chosen: [Describe the outcome]
+[Optional] If Option D chosen: [Describe the outcome]
+Question 3:
+[Present the third decision point]
 
+Option A: [Description]
+Option B: [Description]
+[Optional] Option C: [Description]
+[Optional] Option D: [Description]
+Outcome 3:
 
-        2B. you sit, contemplating.
-            A. eat
-            B. sleep
-            C. stretch
-            D. walk
+If Option A chosen: [Describe the outcome]
+If Option B chosen: [Describe the outcome]
+[Optional] If Option C chosen: [Describe the outcome]
+[Optional] If Option D chosen: [Describe the outcome]
+Question 4:
+[Present the fourth decision point]
 
-        3A.
+Option A: [Description]
+Option B: [Description]
+[Optional] Option C: [Description]
+[Optional] Option D: [Description]
+Outcome 4:
 
-        3B.
-
-        3C.
-
-        3D.
-
-
-        2C. You stand. You legs get quickly tired
-            A. keep standing
-            B. sit down again
-            C. exercise
-            D. run around
-
-        3A.
-
-        3B.
-
-        3C.
-
-        3D.
-
-        2D. You crawl forward. Now what?
-            A. keep standing
-            B. sit down again
-            C. exercise
-            D. run around
-
+If Option A chosen: [Describe the outcome]
+If Option B chosen: [Describe the outcome]
+[Optional] If Option C chosen: [Describe the outcome]
+[Optional] If Option D chosen: [Describe the outcome]
+Conclusion/Resolution:
+[Wrap up the scenario, summarizing the consequences of the player's choices]
 
 
 
@@ -88,10 +89,27 @@ https://code-with-me.global.jetbrains.com/9o-fp2ndkibip5F3AlhXzQ#p=IC&fp=A1F8A40
 
 2A. the light illuminates a skeleton with a hatchet in it's skull.
 
-    A: grab the hatchet and free yourself
+    A. grab the hatchet and free yourself
     B. Struggle
 
-3A. you arise from the chair, naked and cold.
+3A. you arise from the chair, half naked and cold.
+
+    A. exlpore the room
+    B. try the door
+
+4A. you fumble around the darkness but eventually give up -----> 3A
+
+4B. you grab the knob and the door creeps open slowly revealing what appears to be a spiraling stairway. you hear footsteps echoing down the stairs
+
+    A. Hide in the dungeon
+    B. charge up the stairs with the hatchet
+    C. hid the hatchet in your pants and approach friendly
+
+
+
+
+
+
 
 3B. hmmm. that proved no help -----> 2A 
 
