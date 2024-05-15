@@ -25,7 +25,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
 
     public FinalProject(){
         try {
-            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(30f);
+            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(200f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         }
         catch (IOException | FontFormatException e){
@@ -38,10 +38,11 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         gameWindow.setSize(1000,1000);
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.getContentPane().setBackground(Color.BLACK);
+        gameWindow.setLayout(null);
 
         //Title
         titleName = new JPanel();
-        titleName.setBounds(100, 100, 600, 500);
+        titleName.setBounds(200, 1, 600, 500);
         titleName.setBackground(Color.BLACK);
 
         titleNameLabel = new JLabel("Matrix");
@@ -50,7 +51,7 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         titleNameLabel.setFont(engraversOldEnglish);
         titleName.add(titleNameLabel);
 
-        gameWindow.add(titleNameLabel);
+        gameWindow.add(titleName);
         gameWindow.setVisible(true);
     }
 
