@@ -10,9 +10,10 @@ import java.io.IOException;
 
 public class FinalProject extends JFrame implements ActionListener, MouseListener{
     JFrame gameWindow;
-    JPanel titleName;
+    JPanel titleName,  startButtonPanal;
     JLabel titleNameLabel;
     Font engraversOldEnglish;
+    JButton startButton;
 
 
     public static void main(String[] args) {
@@ -35,15 +36,13 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
 
     public FinalProject(){
         try {
-            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(200f);
+            engraversOldEnglish = Font.createFont(Font.TRUETYPE_FONT, new File("OPTIEngraversOldEnglish.otf")).deriveFont(5f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         }
         catch (IOException | FontFormatException ignored){
 
 
         }
-
-
         JTextArea text = new JTextArea();
         //Window
         gameWindow = new JFrame("Dungeon");
@@ -51,31 +50,35 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.getContentPane().setBackground(Color.BLACK);
 
-
         titleName = new JPanel();
+
         titleName.setLayout(new GridBagLayout());
         titleName.add(text);
-
-
         titleName.setBackground(Color.BLACK);
-
 
         titleNameLabel = new JLabel("matrix");
         titleNameLabel.setBackground(Color.black);
         titleNameLabel.setForeground(Color.white);
-        titleNameLabel.setFont(engraversOldEnglish);
-
+        titleNameLabel.setFont(engraversOldEnglish.deriveFont(200f));
 
         titleName.add(titleNameLabel);
-        gameWindow.add(titleName);
-        gameWindow.setVisible(true);
-
-
 
 
         //Buttons
-        JButton start = new JButton("Begin");
-        JButton button1 = new JButton();
+        startButtonPanal = new JPanel();
+        startButtonPanal.setBounds(300,400,200,100);
+        startButtonPanal.setBackground(Color.black);
+        startButton = new JButton("Begin");
+        startButton.setBackground(Color.black);
+        startButton.setForeground(Color.white);
+        startButton.setFont(engraversOldEnglish.deriveFont(10f));
+        startButton.setFocusPainted(false);
+        startButtonPanal.add(startButton);
+
+
+        gameWindow.add(titleName);
+        gameWindow.add(startButtonPanal);
+        gameWindow.setVisible(true);
     }
 
 
