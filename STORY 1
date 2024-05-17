@@ -1,8 +1,8 @@
 Rafferty and Wesley wrote all of this
 
-Premise: you go to sleep in the present day, during the nba finals. OKC is losing the series to the Mavs 1-2. You go to sleep, and when you wake up, you're in a dungeon (the character is in medieval times, but doesn't know it).
+Premise: you go to sleep in the present day, having ust watched the first game in the nba finals. You go to sleep, and when you wake up, you're in a dungeon (the character is in medieval times, but doesn't know it).
 
-You were switched with an infamous robber with the exact same name as you, and now you hve to find your way back to the present time to see the outcome of the OKC-Mavs series, hoping your parlay will hit.
+You were switched with an infamous robber with the exact same name as you, and now you hve to find your way back to the present time to see the outcome of the nba finals, hoping your parlay will hit.
 
 Have to get back to present by finding a witch, who sends us on an insane quest to find all the ingredients for the potion that will allow us to get us back.
 
@@ -11,11 +11,13 @@ twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win 
 you can die along the way. You won't necessarily lose all your progress, but it might respawn you or lose items in your inventory, meaning you'll have to go back to collect more or risk losing again
 
 
-(number) = the number of the scenario
-(number[option letter]) = option letter is the selected option from the previous number
+(number) [scenario] {number_letter}
+number: the number of the scenario the player is on
+scenario: the story
+number_letter: (number: the scenario that leads to the new scenario) (letter: the choice from the previous scenario that leads the player to the current scenario)
 
 
-    ex:
+example:
 Scenario Title/Number: [Title or number to identify the scenario]
 
 Introduction/Scenario Setup:
@@ -126,5 +128,31 @@ Conclusion/Resolution:
 10. you come across a man holding a torch on the stairs and he says, "My goodness, god help us", before running up the stairs in horror. (7 C)
 
 
+11. He screams as you bring your hatchet down on his neck, relieving him of his head. thuds echo throughout the stairs as his head rolls down them. (9 A)
 
-https://code-with-me.global.jetbrains.com/rJF54FI5OCkEff-tKt_1fA#p=IC&fp=20E059D38322C2A5E15B697D5D68D73514D7B107CD2D610E1FA16C31786A112B&newUi=true
+    A. Advance up the stairs!
+    B. Hide the body!
+
+12. You roll the body down the stairs and into the dungeon, that'll have to do for now. (11 B)
+
+    A. Advance up the stairs!
+
+13. You force him down the stairs with the threat of violence and restrain him in your former prison, he shouldn't be a problem for the time being. (9 B)
+
+    A. I guess the only way is up, advance?!
+
+14. He thanks you and runs back up the stairs, hopefully he isn't going to tell anyone (9 C)
+
+    A. Advance up the stairs!
+
+
+15. You continue up the stairs, hopefully you haven't done anything to make anyone suspicious. (11 A, 12 A, 13 A, 14 A)
+
+    A. Keep going up the stairs.
+
+16. Damn these are long stairs, must be really deep underground. There is an end however, and you approach it but not before hiding the hatchet in your pants.
+
+
+
+
+
