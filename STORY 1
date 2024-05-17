@@ -1,24 +1,20 @@
 Rafferty and Wesley wrote all of this
 
-BRAINSTORMING:
-premise: you go to sleep in the present day, during the nba finals. OKC is losing the series to the Mavs 1-2. You go to sleep, and when you wake up, you're in a dungeon (the character is in medieval times, but doesn't know it).
+Premise: you go to sleep in the present day, during the nba finals. OKC is losing the series to the Mavs 1-2. You go to sleep, and when you wake up, you're in a dungeon (the character is in medieval times, but doesn't know it).
 
 You were switched with an infamous robber with the exact same name as you, and now you hve to find your way back to the present time to see the outcome of the OKC-Mavs series, hoping your parlay will hit.
 
 Have to get back to present by finding a witch, who sends us on an insane quest to find all the ingredients for the potion that will allow us to get us back.
 
-drey ashplae
-
-
 twist: you wake up and turn on the NBA finals and watch the Detroit Pistons win game 7 of the NBA finals, and see the date on the TV read 3099
 
 you can die along the way. You won't necessarily lose all your progress, but it might respawn you or lose items in your inventory, meaning you'll have to go back to collect more or risk losing again
 
-https://code-with-me.global.jetbrains.com/uOZY3PfF5U0Wltiy4k2QXg#p=IC&fp=20E059D38322C2A5E15B697D5D68D73514D7B107CD2D610E1FA16C31786A112B&newUi=true
 
-(number) = step the player is on
-
+(number) = the number of the scenario
 (number[option letter]) = option letter is the selected option from the previous number
+
+
     ex:
 Scenario Title/Number: [Title or number to identify the scenario]
 
@@ -131,4 +127,4 @@ Conclusion/Resolution:
 
 
 
-
+https://code-with-me.global.jetbrains.com/rJF54FI5OCkEff-tKt_1fA#p=IC&fp=20E059D38322C2A5E15B697D5D68D73514D7B107CD2D610E1FA16C31786A112B&newUi=true
