@@ -17,8 +17,8 @@ public class Character {
     public Item itemRemove(Item item){
         for (int x = 0; x < inventory.size(); x++){
             if (inventory.get(x) == item){
-                Item returnItem = (inventory.remove(item));
             }
         }
+        return item;
     }
 }
