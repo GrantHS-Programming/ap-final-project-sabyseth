@@ -30,67 +30,105 @@ Question 1:
 
 Option A: [Description]
 Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
+Option C: [Description]
+Option D: [Description]
 Outcome 1:
 
 If Option A chosen: [Describe the outcome]
 If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
+If Option C chosen: [Describe the outcome]
+If Option D chosen: [Describe the outcome]
 Question 2:
 [Present the second decision point]
 
 Option A: [Description]
 Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
+Option C: [Description]
+Option D: [Description]
 Outcome 2:
 
 If Option A chosen: [Describe the outcome]
 If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
+If Option C chosen: [Describe the outcome]
+If Option D chosen: [Describe the outcome]
 Question 3:
 [Present the third decision point]
 
 Option A: [Description]
 Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
+Option C: [Description]
+Option D: [Description]
 Outcome 3:
 
 If Option A chosen: [Describe the outcome]
 If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
+If Option C chosen: [Describe the outcome]
+If Option D chosen: [Describe the outcome]
 Question 4:
 [Present the fourth decision point]
 
 Option A: [Description]
 Option B: [Description]
-[Optional] Option C: [Description]
-[Optional] Option D: [Description]
+Option C: [Description]
+Option D: [Description]
 Outcome 4:
 
 If Option A chosen: [Describe the outcome]
 If Option B chosen: [Describe the outcome]
-[Optional] If Option C chosen: [Describe the outcome]
-[Optional] If Option D chosen: [Describe the outcome]
+If Option C chosen: [Describe the outcome]
+If Option D chosen: [Describe the outcome]
 Conclusion/Resolution:
 [Wrap up the scenario, summarizing the consequences of the player's choices]
 
+
+
+
 1. You are in a dungeon, strapped to a chair, the only light coming in is through a small hatch in what appears to be a door in front of you.
+    A: look around !
 
-    A: look around
+
+2. the light illuminates a skeleton with a hatchet in it's skull. (1 A)
+    A. grab the hatchet and free yourself !
+    B. Struggle !
 
 
-2A. the light illuminates a skeleton with a hatchet in it's skull.
+3. After a long struggle, you arise from the chair, half naked and cold. (2 A, 4 A)
+    A. explore the room !
+    B. sleep to regain your energy !
 
-    A: grab the hatchet and free yourself
-    B. Struggle
 
-3A. you arise from the chair, naked and cold.
+4. Your attempt at freeing yourself is futile. Now you're tired. (2 B)
+    A. grab the hatchet and free yourself !
+    B. take a quick nap !
 
-3B. hmmm. that proved no help (
+
+5. you fumble around the darkness, but can't see anything. Eventually, you hit something wooden, maybe its a door? (3 A, 6 A)
+    A. try to open the door !
+    B. go back to your chair !
+
+
+6. You close your eyes whilst seated in the dingy, chain-covered chair, but no sleep comes to you. (3 B, 4B)
+    A. explore the room !
+
+
+7. you grab the door handle. The door creeps open slowly revealing a regal yet dirty-looking spiral stairway extending as far as the eye can see. Footsteps can be heard echoing down the stairs. (5 A)
+    A. Hide in the dungeon !
+    B. charge up the stairs with the hatchet ! -
+    C. hide the hatchet in your pants and approach friendly ! -
+
+
+8. A man with a torch comes down, notices the empty chair and looks around to see you. He approaches you and everything goes black (7 A)
+
+
+
+9. you run up the stairs releasing a hoarse battle cry, you run into a man holding a torch and he falls to the ground begging for mercy (7 B)
+    A. Chop his head off
+    B. Tie him up in the dungeon
+    C. Let him go
+
+
+10. you come across a man holding a torch on the stairs and he says, "My goodness, god help us", before running up the stairs in horror. (7 C)
+
+
+
 
