@@ -9,8 +9,12 @@ import java.io.IOException;
 
 
 public class FinalProject extends JFrame implements ActionListener, MouseListener{
-        UI ui = new UI();
-        ui.creatUI();
+    UI ui = new UI();
+
+
+        // ALL CODE BELOW THIS POINT BELONGS IN A METHOD, THERE'S NO METHOD HERE...
+
+    public static void main(String[] args) {
         new FinalProject();
         Character player = new Character("Grant Gilmore");
         Location location1 = new Location("Fight", "Heal", "Run", "Inventory", "You wake up...");
@@ -18,8 +22,9 @@ public class FinalProject extends JFrame implements ActionListener, MouseListene
         System.out.println(currentLocation);
         System.out.println(currentLocation.getOption1());
         System.out.println(currentLocation.printAll());
-
     }
+
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
