@@ -1,13 +1,11 @@
-import javax.swing.*;
+`import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 
 public class UI {
     JFrame window;
-    JPanel titleNamePanal,  startButtonPanal;
+    JPanel titleNamePanal,  startButtonPanal, mainPanal;
     JLabel titleNameLabel;
     JButton startButton;
     Font engraversOldEnglish;
@@ -42,12 +40,22 @@ public class UI {
         startButton.setBackground(Color.BLACK);
         startButton.setForeground(Color.white);
         startButton.setFont(engraversOldEnglish.deriveFont(30f));
-        startButton.setFocusPainted(false);
+        startButton.setBorderPainted(false);
         startButtonPanal.add(startButton);
         window.add(titleNamePanal);
         window.add(startButtonPanal);
 
         window.setVisible(true);
 
+        mainPanal = new JPanel();
+        mainPanal.setBounds(100,100,600,500);
+        mainPanal.setBackground(Color.black);
+        window.add(mainPanal);
+
+        
+
+
+
     }
 }
+`
