@@ -5,26 +5,45 @@
 
 1n. You sit back in the dingy chair. For a few minutes, it's quiet. Then, thunderous footsteps slowly get louder as they approach you. (5 B)
     A. grab the chain, poised to fight !
-    B. Grab the ax
-    C. pretend to be asleep
-    D. hide behind the skeleton
+    B. Grab the ax !
+    C. pretend to be asleep !
+    D. hide behind the skeleton !
 
 
 The door opens with an excruciating screech, followed by a deep moan. In its place stands a knight in black armor, holding a spiked mace.
 
+
 2n. He sees you holding the chain, and yells "drop it!" (1n A)
-    A. drop the chain
+    A. drop the chain !
     B. yell back at the knight
-    C. charge the knight
-    D. try to strip his armor off with the chain
+    C. charge the knight !
+    D. try to strip his armor off with the chain !
 
 
 3n. He sees you holding the ax, and yells "drop it!" (1n B)
-    A. Drop the ax
+    A. Drop the ax !
     B. Yell back at the knight
-    C. Charge the knight
-    D. Aim for his helmet with the back of the ax
+    C. Charge the knight !
+    D. Aim for his helmet with the back of the ax !
 
 
-4n. The knight ventures deeper into the dungeon, each footstep (1n C)
+4n. The knight ventures deeper into the dungeon, each footstep shaking your chest. He sees you asleep and bangs his mace against the ground. You jolt up. (1n C) !
 
+
+The knight drags you to a new room. It's an execution chamber. He throws you into the room, locking the door (4n, 3n A, 2n A, 6n, 7n, 8n)
+
+"I'll be back in a day," he says.
+
+The room is massive, but all that sits in it is a guillotine, right in the center. The room is made entirely of brick, some have cracks in them.
+
+
+5n. You must find a way out.
+    A. Check the bricks with cracks
+    B. Look for an exit in plain sight
+    C. Look around the guillotine
+
+6n. Your efforts to de-armor the knight are futile. Although a hit is successful, his armor is far too thick for anything meaningful to result. You've been knocked unconscious. (2n D, 3n D, 2n C, 3n C) !
+
+7n. Your idea works, for a little. He crushes the skeleton with his boot, narrowly missing you. When he sees you, he grabs you, leading you to a new room. (1n D) !
+
+8n. Well, that did nothing. He laughs at you! Then grabs you, leading you to a new room. (2n B, 3n B)
